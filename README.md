@@ -23,7 +23,7 @@ Implemented a real-time TCP-based Chat Room application in C where multiple clie
 
 🔹 Compilation & Execution
 
-This project was compiled directly using GCC (no Makefile used).
+This project was compiled directly using GCC .
 
 Server:
 
@@ -38,7 +38,6 @@ Client:
 gcc client.c -o client -lpthread
 ./client
 ```
-
 
 ## ⚙️ Architecture Overview
 
