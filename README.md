@@ -21,20 +21,20 @@ Implemented a real-time TCP-based Chat Room application in C where multiple clie
 * Concurrency: POSIX Threads (pthreads)
 * Concepts: File Handling, Signals
 
-🔹 Compilation & Execution
+## 🔹 Compilation & Execution
 
-This project was compiled directly using GCC .
+This project was compiled directly using GCC.
 
-Server:
+### Server
 
 ```
 gcc server.c functions.c -o server -lpthread
 ./server
 ```
 
-Client:
+### Client
 
-````
+```
 gcc client.c -o client -lpthread
 ./client
 ```
@@ -62,3 +62,4 @@ gcc client.c -o client -lpthread
 * Synchronization and Mutex Handling
 * Client–Server Architecture
 * Debugging and Problem Solving
+
